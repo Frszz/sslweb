@@ -71,7 +71,7 @@ img {
   text-align: center;
   font-size: var(--h1-font-size);
   margin-bottom: 1.25rem;
-  color: var(--black-color);
+  color: var(--small-font-size);
 }
 
 .login__inputs, 
@@ -91,7 +91,7 @@ img {
   border: 2px solid hsla(0, 0%, 100%, .7);
   padding-inline: 1.25rem;
   border-radius: 4rem;
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .login__input, 
@@ -103,12 +103,12 @@ img {
 .login__input {
   width: 100%;
   background: none;
-  color: var(--black-color);
+  color: var(--white-color);
   padding-block: 1rem;
 }
 
 .login__input::placeholder {
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .login__box i {
@@ -129,7 +129,7 @@ img {
 
 .login__check-box {
   column-gap: .5rem;
-  color: var(--black-color);
+  color: var(--white-color);
 }
 
 .login__check-input {
